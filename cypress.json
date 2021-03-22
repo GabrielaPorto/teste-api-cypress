@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://gorest.co.in/public-api/",
+    "testFiles": "**/*.{feature,features,spec.js,request.js}",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "mochawesome-report/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+}

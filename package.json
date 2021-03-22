@@ -1,0 +1,28 @@
+{
+  "name": "projetos_Cypress_Api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "Gabriela Porto",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/joi": "^17.1.1",
+    "cypress": "^6.7.1",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "random-email": "^1.0.3"
+  },
+  "description": ""
+}
